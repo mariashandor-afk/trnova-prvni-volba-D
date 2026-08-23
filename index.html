@@ -969,7 +969,7 @@ async function j(path){ const r=await fetch(path,{cache:'no-store'}); if(!r.ok) 
       j('/content/team.json'), j('/content/program.json'), j('/content/changes.json')
     ]);
 
-    document.getElementById('hero-title').innerHTML = esc(site.hero_title).replace(' fungovat ', ' fungovat<br>').replace('lépe.','<span>lépe.</span>');
+document.getElementById('hero-title').innerHTML = esc(site.hero_title).replace('fungovat lépe.', '<span>fungovat lépe.</span>');
     document.getElementById('hero-text').textContent = site.hero_text;
     document.getElementById('hero-slogan').textContent = site.hero_slogan;
     document.getElementById('footer-slogan').textContent = site.hero_slogan;
