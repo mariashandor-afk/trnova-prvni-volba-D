@@ -1,0 +1,116 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: cs
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "site"
+    label: "Web – obecné texty"
+    files:
+      - label: "Úvod, slogany, tým a kontakt"
+        name: "site"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - {label: "Hlavní nadpis", name: "hero_title", widget: "string"}
+          - {label: "Úvodní text", name: "hero_text", widget: "text"}
+          - {label: "Hlavní slogan", name: "hero_slogan", widget: "string"}
+          - {label: "Slogan infrastruktura", name: "infrastructure_slogan", widget: "string"}
+          - {label: "Úvod k týmu", name: "team_intro", widget: "text"}
+          - {label: "Úvod k programu", name: "program_intro", widget: "text"}
+          - {label: "Kontaktní otázka", name: "contact_question", widget: "string"}
+          - {label: "Kontaktní text", name: "contact_text", widget: "text"}
+          - {label: "E-mail", name: "email", widget: "string"}
+          - {label: "Facebook", name: "facebook", widget: "string"}
+
+  - name: "ivan"
+    label: "Ivan Daněk"
+    files:
+      - label: "Profil a Proč kandiduji"
+        name: "ivan"
+        file: "content/ivan.json"
+        format: "json"
+        fields:
+          - {label: "Jméno", name: "name", widget: "string"}
+          - {label: "Role", name: "role", widget: "string"}
+          - {label: "Fotografie", name: "photo", widget: "image"}
+          - {label: "Krátké představení", name: "intro", widget: "text"}
+          - {label: "Profesní profil", name: "bio", widget: "text"}
+          - label: "Profilové údaje"
+            name: "facts"
+            widget: "list"
+            fields:
+              - {label: "Štítek", name: "label", widget: "string"}
+              - {label: "Text", name: "value", widget: "string"}
+          - {label: "Nadpis Proč kandiduji", name: "why_title", widget: "string"}
+          - label: "Proč kandiduji – odstavce"
+            name: "why"
+            widget: "list"
+            field: {label: "Odstavec", name: "paragraph", widget: "text"}
+
+  - name: "priorities"
+    label: "Hlavní priority"
+    files:
+      - label: "6 priorit"
+        name: "priorities"
+        file: "content/priorities.json"
+        format: "json"
+        fields:
+          - label: "Priority"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Nadpis", name: "title", widget: "string"}
+              - {label: "Text", name: "text", widget: "text"}
+
+  - name: "team"
+    label: "Náš tým"
+    files:
+      - label: "9 kandidátů"
+        name: "team"
+        file: "content/team.json"
+        format: "json"
+        fields:
+          - label: "Členové týmu"
+            name: "members"
+            widget: "list"
+            fields:
+              - {label: "Jméno", name: "name", widget: "string"}
+              - {label: "Role / profese", name: "role", widget: "string"}
+              - {label: "Fotografie", name: "photo", widget: "image", required: false}
+
+  - name: "program"
+    label: "Program"
+    files:
+      - label: "Programové oblasti"
+        name: "program"
+        file: "content/program.json"
+        format: "json"
+        fields:
+          - label: "Sekce programu"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "Nadpis sekce", name: "title", widget: "string"}
+              - label: "Body"
+                name: "items"
+                widget: "list"
+                field: {label: "Bod programu", name: "item", widget: "string"}
+
+  - name: "changes"
+    label: "Co chceme změnit"
+    files:
+      - label: "Jiný způsob řízení obce"
+        name: "changes"
+        file: "content/changes.json"
+        format: "json"
+        fields:
+          - label: "Body"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Nadpis", name: "title", widget: "string"}
+              - {label: "Text", name: "text", widget: "text"}

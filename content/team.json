@@ -1,0 +1,49 @@
+{
+  "members": [
+    {
+      "name": "Ivan Daněk",
+      "role": "kandidát na starostu",
+      "photo": "assets/ivan-danek.jpg"
+    },
+    {
+      "name": "Kandidát 2",
+      "role": "profil doplníme",
+      "photo": ""
+    },
+    {
+      "name": "Kandidát 3",
+      "role": "profil doplníme",
+      "photo": ""
+    },
+    {
+      "name": "Kandidát 4",
+      "role": "profil doplníme",
+      "photo": ""
+    },
+    {
+      "name": "Kandidát 5",
+      "role": "profil doplníme",
+      "photo": ""
+    },
+    {
+      "name": "Kandidát 6",
+      "role": "profil doplníme",
+      "photo": ""
+    },
+    {
+      "name": "Kandidát 7",
+      "role": "profil doplníme",
+      "photo": ""
+    },
+    {
+      "name": "Kandidát 8",
+      "role": "profil doplníme",
+      "photo": ""
+    },
+    {
+      "name": "Kandidát 9",
+      "role": "profil doplníme",
+      "photo": ""
+    }
+  ]
+}

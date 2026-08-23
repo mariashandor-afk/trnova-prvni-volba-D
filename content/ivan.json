@@ -1,0 +1,35 @@
+{
+  "name": "Ivan Daněk",
+  "role": "kandidát na starostu",
+  "photo": "assets/ivan-danek.jpg",
+  "intro": "Manažer a podnikatel se zkušeností s řízením firem, strategických projektů, týmů a dlouhodobého rozvoje.",
+  "bio": "Ivan Daněk je vlastníkem a CEO společnosti Innovan Pharma. Jeho profesní zkušenost zahrnuje strategii, business development, řízení portfolia, obchodní efektivitu a výzkum a vývoj. V letech 2016–2020 působil jako CEO PRO.MED.CS Praha a.s. a v letech 2013–2020 jako člen představenstva.",
+  "facts": [
+    {
+      "label": "Současnost",
+      "value": "Owner & CEO, Innovan Pharma"
+    },
+    {
+      "label": "Zkušenost",
+      "value": "CEO PRO.MED.CS Praha, 2016–2020"
+    },
+    {
+      "label": "Zaměření",
+      "value": "Strategie, řízení, rozvoj projektů"
+    },
+    {
+      "label": "Pro Trnovou",
+      "value": "Klidné, předvídatelné a profesionální řízení"
+    }
+  ],
+  "why_title": "Trnová může fungovat lépe.",
+  "why": [
+    "Trnová je místo, kde žijeme, a není mi lhostejné, jak bude vypadat za pět, deset nebo dvacet let. Má velký potenciál, ale její další rozvoj podle mě potřebuje více plánování, otevřenosti a vzájemného respektu.",
+    "Ve své profesní kariéře jsem řadu let vedl firmy a týmy, rozhodoval o investicích a nesl odpovědnost za jejich výsledky. Naučil jsem se, že dobré řízení není o jednom člověku. Je o schopnosti naslouchat, obklopit se schopnými lidmi, rozhodovat na základě faktů a umět za svá rozhodnutí převzít odpovědnost.",
+    "Stejný přístup bych chtěl přinést i do vedení Trnové.",
+    "Nechci kandidovat proto, abych vedl osobní spory se současným vedením obce. Kandiduji proto, že věřím, že Trnová může fungovat lépe. Důležitá rozhodnutí mají být připravena s předstihem a občané mají vědět, proč se dělají, co obci přinesou a kolik budou stát.",
+    "Čekají nás důležitá rozhodnutí o školce a škole, dopravě, vodě, kanalizaci, ČOV i další výstavbě. Chci, abychom je řešili s dlouhodobou perspektivou a aby rozvoj obce nepředbíhal infrastrukturu, kterou pro něj Trnová potřebuje.",
+    "Především bych ale chtěl vrátit do vedení obce klidnou a věcnou komunikaci. Nemusíme mít všichni stejný názor. Měli bychom se ale umět poslouchat, respektovat a hledat řešení, které je dobré pro Trnovou jako celek.",
+    "Proto jsme dali dohromady tým devíti nezávislých kandidátů s různými zkušenostmi a společným cílem: aby byla Trnová dobře spravovanou obcí, ve které se dobře žije."
+  ]
+}
