@@ -1,12 +1,12 @@
 {
-  "hero_title": "Trnová může fungovat lépe.",
-  "hero_text": "Chceme obec, která plánuje dopředu, odpovědně hospodaří, otevřeně komunikuje a dokáže spojovat lidi i rozdílné názory.",
   "hero_slogan": "Konkrétní práce. Otevřená obec. Klidnější Trnová.",
-  "infrastructure_slogan": "Nejdřív infrastruktura. Potom další výstavba.",
-  "team_intro": "Nejsme jen jeden kandidát. Jsme tým devíti lidí s různými zkušenostmi, kteří chtějí spojit své schopnosti ve prospěch obce.",
-  "program_intro": "Kliknutím rozbalíte jednotlivé části programu a konkrétní kroky, které chceme prosazovat.",
   "contact_question": "Co byste v Trnové změnili jako první?",
+  "facebook": "https://www.facebook.com/trnovaprvnivolba/",
+  "team_intro": "Nejsme jen jeden kandidát. Jsme tým devíti lidí s různými zkušenostmi, kteří chtějí spojit své schopnosti ve prospěch obce.",
   "contact_text": "Program nechceme psát jen od stolu. Napište nám, co vám v Trnové chybí, co funguje špatně a co bychom naopak měli zachovat.",
-  "email": "info@trnova-prvnivolba.cz",
-  "facebook": "https://www.facebook.com/trnovaprvnivolba/"
+  "program_intro": "Kliknutím rozbalíte jednotlivé části programu a konkrétní kroky, které chceme prosazovat.",
+  "hero_text": "Chceme obec, která plánuje dopředu, odpovědně hospodaří, otevřeně komunikuje a dokáže spojovat lidi i rozdílné názory.",
+  "hero_title": "Trnová může fungovat lépe!",
+  "infrastructure_slogan": "Nejdřív infrastruktura. Potom další výstavba.",
+  "email": "info@trnova-prvnivolba.cz"
 }
