@@ -39,7 +39,7 @@ collections:
         fields:
           - {label: "Jméno", name: "name", widget: "string"}
           - {label: "Role", name: "role", widget: "string"}
-          - {label: "Fotografie", name: "photo", widget: "image"}
+          - {label: "Fotografie", name: "photo", widget: "image", media_folder: "/assets", public_folder: "/assets"}
           - {label: "Krátké představení", name: "intro", widget: "text"}
           - {label: "Profesní profil", name: "bio", widget: "text"}
           - label: "Profilové údaje"
@@ -83,7 +83,7 @@ collections:
             fields:
               - {label: "Jméno", name: "name", widget: "string"}
               - {label: "Role / profese", name: "role", widget: "string"}
-              - {label: "Fotografie", name: "photo", widget: "image", required: false}
+              - {label: "Fotografie", name: "photo", widget: "image", required: false, media_folder: "/assets", public_folder: "/assets"}
 
   - name: "program"
     label: "Program"
